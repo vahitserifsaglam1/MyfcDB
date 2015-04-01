@@ -1148,6 +1148,26 @@ class DB
         
     }
     
+    /**
+     * Kayýt sayýsýný döndürür
+     * @return number|boolean
+     */
+    public function count()
+    {
+        
+        if($this->lastSucessQuery)
+        {
+            
+            return $this->lastSucessQuery->rowCount();
+            
+        }else{
+            
+            return false;
+            
+        }
+        
+    }
+    
  
     
     /**
