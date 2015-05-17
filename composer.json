@@ -1,5 +1,5 @@
 {
-  "name" : "MyfcDB",
+  "name" : "vahitserifsaglam1/myfcdb",
   "repositories" : [ {
     "type" : "composer",
     "url" : "https://packagist.org/"
